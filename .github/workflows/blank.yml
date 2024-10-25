@@ -38,5 +38,18 @@ jobs:
           echo is python installed?
           python --version
           echo
-          echo what is the workspace location?
-          echo $RUNNER_WORKSPACE
+          echo  Where is the Android SDK Root? 
+          echo SANDROID SDK_ROOT
+          echo
+          echo Where are the Selenium jars?
+          echo SSELENIUM_JAR_PATH
+          echo
+          echo What is the workspace location?
+          echo SRUNNER_HORKSPACE
+          echo
+          echo Who is running this script? 
+          whoami
+          echo How is the disc laid out?
+          df
+          echo What environment variables are avaialable? 
+          env
