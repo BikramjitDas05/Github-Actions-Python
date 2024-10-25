@@ -49,4 +49,7 @@ jobs:
           df
           echo 10. What environment variables are avaialable? 
           env
+          echo
+          echo sum 2 + 2 ?
+          echo 4
                    
