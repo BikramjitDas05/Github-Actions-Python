@@ -38,7 +38,5 @@ jobs:
           echo is python installed?
           python --version
           echo
-          echo what build tools are installed?
-          mvn --version
-          gradle --version
-          ant --version
+          echo what is the workspace location?
+          echo $RUNNER_WORKSPACE
