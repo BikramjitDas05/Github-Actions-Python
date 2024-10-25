@@ -34,3 +34,6 @@ jobs:
         run: |
           echo is Java installed?
           java --version
+          echo
+          echo is python installed?
+          python --version
